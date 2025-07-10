@@ -92,6 +92,8 @@ Scamvisor is a multi-phase research platform that includes:
    ```
 
 6. **Open your browser**
+
+
    Because this project will be hosted in Prolific soon, we have to follow a custom URL approach to try out the system.
    Once you run "npm run dev", depending on the URL (e.g., 3000, 3001), include the following parameters.
    [http://localhost:3000?PROLIFIC_PID=test01&STUDY_ID=test_study_1&SESSION_ID=test_session_1]
