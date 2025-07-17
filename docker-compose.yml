@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGODB_URI=mongodb+srv://skamal2:SyJZPfd9eY5Xbpa5@cluster0.bcct5yi.mongodb.net
+    env_file:
+      - .env.local
